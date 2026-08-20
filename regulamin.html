@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Regulamin – Podzielnia WOW</title>
-<meta name="description" content="Regulamin Podzielni WOW – poznaj zasady korzystania, przyjmowania ubrań i butów oraz naszą misję.">
+<meta name="description" content="Regulamin Podzielni WOW w czytelnych zakładkach.">
 <link rel="icon" type="image/png" href="Podzielnialogo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -14,39 +14,45 @@
   <span>📍 ul. Czumy 6a, Warszawa (Bemowo)</span><span>🕐 pon–pt: 17:00–20:00 • sob: 12:00–15:00</span>
 </div></div>
 <header class="header" id="header"><div class="container header-inner">
-  <a class="brand" href="index.html"><img src="Podzielnialogo.png" alt="Podzielnia WOW – Weź, Oddaj, Wymień"></a>
+  <a class="brand" href="index.html"><img src="Podzielnialogo.png" alt="Podzielnia WOW"></a>
   <nav class="nav" id="nav">
-    <a href="o-nas.html">O nas</a><a href="blog.html">Blog</a><a href="regulamin.html" class="active">Regulamin</a>
-    <a href="kontakt.html">Kontakt</a><a href="wolontariusze.html">Dla wolontariuszy</a>
+    <a href="o-nas.html">O nas</a><a href="regulamin.html" class="active">Regulamin</a><a href="media.html">Media</a>
+    <a href="index.html#galeria">Galeria</a><a href="kontakt.html">Kontakt</a><a href="wolontariusze.html">Dla wolontariuszy</a>
   </nav>
-  <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  <div class="nav-tools">
+    <button class="theme-toggle" id="themeToggle" aria-label="Przełącz tryb ciemny"><span id="themeIcon">🌙</span></button>
+    <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
 </div></header>
 
 <section class="page-hero"><div class="page-hero-bg"><img src="pz1.png" alt=""></div>
   <div class="container">
     <span class="kicker">Zasady</span>
     <h1>Regulamin Podzielni WOW</h1>
-    <p>Poznaj naszą misję i cele, które napędzają Podzielnię WOW.</p>
+    <p>Wybierz zakładkę, która Cię interesuje. Wszystkie zasady są krótkie, czytelne i fair.</p>
   </div>
 </section>
 
 <section class="section"><div class="container">
-  <nav class="toc" data-reveal aria-label="Spis treści regulaminu">
-    <a href="#p1">§1 Informacje ogólne</a><a href="#p2">§2 Zasady korzystania</a>
-    <a href="#p3">§3 Przyjmowanie ubrań i butów</a><a href="#p4">§4 Czego nie przyjmujemy</a>
-    <a href="#p5">§5 Rzeczy wielkogabarytowe</a><a href="#p6">§6 Odpady i żywność</a>
-    <a href="#p7">§7 Dalsze czynienie dobra</a>
-  </nav>
+  <div class="law-tabs" data-reveal>
+    <button class="law-tab active" data-tab="p1">§1 Informacje ogólne</button>
+    <button class="law-tab" data-tab="p2">§2 Zasady korzystania</button>
+    <button class="law-tab" data-tab="p3">§3 Przyjmowanie ubrań</button>
+    <button class="law-tab" data-tab="p4">§4 Czego nie przyjmujemy</button>
+    <button class="law-tab" data-tab="p5">§5 Rzeczy wielkogabarytowe</button>
+    <button class="law-tab" data-tab="p6">§6 Odpady i żywność</button>
+    <button class="law-tab" data-tab="p7">§7 Dalsze czynienie dobra</button>
+  </div>
 
-  <article class="law" id="p1" data-reveal>
+  <div class="law-panel active" id="p1"><article class="law">
     <h3><span class="par">§1</span> INFORMACJE OGÓLNE</h3>
     <p>Podzielnia WOW to miejsce przygotowane i otwarte przez Stowarzyszenie Podzielnia WOW – Weź, Oddaj, Wymień i grupę Przyjaciół z wielkim eco sercem. Do Podzielni można przynieść ubrania, buty, pluszaki, książki dla dzieci, które nie są już potrzebne, lub/i wziąć w/w rzeczy, które są potrzebne – bez żadnych opłat, za darmo.</p>
     <p>Podzielnia WOW mieści się w lokalu <strong>ul. Czumy 6a w Warszawie</strong>.</p>
     <p>O zmianach godzin otwarcia informować będziemy w mediach społecznościowych oraz na stronie internetowej www.podzielniawow.org.pl</p>
     <p>Skontaktować się można z nami drogą mailową, pisząc na adres <strong>kontakt@wowpodzielnia.org.pl</strong>, lub telefonicznie dzwoniąc na nr <strong>502 060 696</strong>, a także poprzez media społecznościowe FB, Instagram lub osobiście w terminach działania Podzielni.</p>
-  </article>
+  </article></div>
 
-  <article class="law" id="p2" data-reveal>
+  <div class="law-panel" id="p2"><article class="law">
     <h3><span class="par">§2</span> GŁÓWNE ZASADY KORZYSTANIA Z PODZIELNI WOW</h3>
     <ol>
       <li>Z Podzielni może korzystać każda osoba, bez względu na miejsce zamieszkania, pochodzenie, wiek, płeć, orientację seksualną, wyznanie, stan cywilny, stopień sprawności czy sytuację materialną.</li>
@@ -55,12 +61,12 @@
       <li>Nie prowadzimy rezerwacji ubrań ani butów – wystawione, wywieszone są dostępne.</li>
       <li>Nie ponosimy odpowiedzialności za rzeczy osobiste pozostawione w Podzielni bez opieki.</li>
       <li>Wszyscy korzystający z Podzielni proszeni są o dbanie o porządek.</li>
-      <li>Osoba / wolontariusz na dyżurze ma prawo wyprosić osoby nietrzeźwe, naruszające regulamin i/lub zasady norm społecznych (zasady współżycia społecznego).</li>
+      <li>Osoba / wolontariusz na dyżurze ma prawo wyprosić osoby nietrzeźwe, naruszające regulamin i/lub zasady norm społecznych.</li>
       <li>Osoba dyżurująca / wolontariusz dla rozpoznania nosi identyfikator z logo Podzielni.</li>
     </ol>
-  </article>
+  </article></div>
 
-  <article class="law" id="p3" data-reveal>
+  <div class="law-panel" id="p3"><article class="law">
     <h3><span class="par">§3</span> GŁÓWNE ZASADY PRZYJMOWANIA UBRAŃ ORAZ BUTÓW</h3>
     <ol>
       <li>Przyjmujemy ubrania, buty, pluszaki i książki dla dzieci.</li>
@@ -70,19 +76,19 @@
       <li>Rzeczy dostarczane w innej formie niż osobiście nie będą przyjmowane.</li>
       <li>Przyniesione rzeczy powinny być przekazane osobie dyżurującej.</li>
       <li>Osoby odwiedzające, korzystające z Podzielni, nie mogą samodzielnie rozwieszać przyniesionych ubrań.</li>
-      <li>Przyjmujemy ubrania i buty wyłącznie w dobrym stanie, czyste, bez plam, dziur, innych uszkodzeń, takie, aby nadawały się do dalszego noszenia.</li>
-      <li>Przyjmujemy pluszaki oraz książki dla dzieci wyłącznie w bardzo dobrym stanie, czyste i nadające się do dalszego używania.</li>
-      <li>Przyjmujemy pluszaki i książki dla dzieci w ograniczonej ilości – przeznaczamy w Podzielni jedną półkę na pluszaki oraz jedną półkę na książki.</li>
+      <li>Przyjmujemy ubrania i buty wyłącznie w dobrym stanie, czyste, bez plam, dziur, innych uszkodzeń.</li>
+      <li>Przyjmujemy pluszaki oraz książki dla dzieci wyłącznie w bardzo dobrym stanie.</li>
+      <li>Przyjmujemy pluszaki i książki dla dzieci w ograniczonej ilości – po jednej półce na każdą z tych kategorii.</li>
       <li>W przypadku zapełnionej półki na pluszaki i na książki – zastrzegamy sobie prawo do odmowy przyjęcia tego typu rzeczy.</li>
-      <li>Jako Podzielnia zastrzegamy sobie prawo do odmowy przyjęcia ubrań i butów w stanie niezgodnym z regulaminem – brudnych, dziurawych, zniszczonych, o wątpliwym lub przykrym zapachu.</li>
-      <li>Zastrzegamy sobie prawo do utylizacji ubrań i obuwia zgodnie z przepisami prawa, w przypadkach, kiedy nie będą nadawały się do dalszego użytku.</li>
-      <li>Każda osoba, w momencie przekazania przyniesionych ubrań osobie dyżurującej / wolontariuszowi, wyzbywa się prawa własności i dobrowolnie wyraża zgodę na dalsze przekazywanie tych rzeczy innym osobom.</li>
+      <li>Jako Podzielnia zastrzegamy sobie prawo do odmowy przyjęcia ubrań i butów w stanie niezgodnym z regulaminem.</li>
+      <li>Zastrzegamy sobie prawo do utylizacji ubrań i obuwia zgodnie z przepisami prawa.</li>
+      <li>Każda osoba, w momencie przekazania przyniesionych ubrań wolontariuszowi, wyzbywa się prawa własności i dobrowolnie wyraża zgodę na dalsze przekazywanie tych rzeczy innym osobom.</li>
     </ol>
     <div class="callout">⚠️ Uwaga – teren jest monitorowany. Nie zostawiaj rzeczy pod drzwiami lokalu!</div>
-  </article>
+  </article></div>
 
-  <article class="law" id="p4" data-reveal>
-    <h3><span class="par">§4</span> GŁÓWNE ZASADY – CZEGO NIE PRZYJMUJEMY DO PODZIELNI</h3>
+  <div class="law-panel" id="p4"><article class="law">
+    <h3><span class="par">§4</span> CZEGO NIE PRZYJMUJEMY DO PODZIELNI</h3>
     <p>1. Do Podzielni nie przyjmujemy:</p>
     <ol class="abc">
       <li>sprzętów małego AGD,</li>
@@ -94,14 +100,15 @@
       <li>innych przedmiotów, w tym: leków, broni i przedmiotów niebezpiecznych, odpadów, rzeczy zagrażających życiu i zdrowiu.</li>
     </ol>
     <p style="margin-top:14px">2. W zgodzie z właściwymi przepisami prawa nie przyjmujemy przedmiotów, których obrót jest regulowany, ograniczony lub zabroniony.</p>
-  </article>
+    <div class="callout">📌 Jeśli masz wątpliwość, czy daną rzecz przyjmujemy – zadzwoń lub napisz do nas przed przyjazdem!</div>
+  </article></div>
 
-  <article class="law" id="p5" data-reveal>
+  <div class="law-panel" id="p5"><article class="law">
     <h3><span class="par">§5</span> RZECZY WIELKOGABARYTOWE I PUNKT ODBIORU WYMIANY</h3>
     <p>Rzeczy wielkogabarytowe i punkt odbioru wymiany w ramach działania strony „Uwaga, śmieciarka jedzie?” – do decyzji.</p>
-  </article>
+  </article></div>
 
-  <article class="law" id="p6" data-reveal>
+  <div class="law-panel" id="p6"><article class="law">
     <h3><span class="par">§6</span> INFORMACJE DODATKOWE: ODPADY I ŻYWNOŚĆ</h3>
     <p>1. Podzielnia WOW nie jest miejscem do pozostawiania odpadów:</p>
     <ol class="abc">
@@ -110,14 +117,14 @@
       <li>odpady wielkogabarytowe oraz elektrośmieci należy oddać do Punktu Selektywnego Zbierania Odpadów Komunalnych (PSZOK). Najbliższy PSZOK znajduje się przy ul. Kampinoskiej 1,</li>
       <li>produkty spożywcze można przekazywać do Jadłodzielni (np. przy ul. Przybyszewskiego 80/82 lub ul. Conrada 6).</li>
     </ol>
-  </article>
+  </article></div>
 
-  <article class="law" id="p7" data-reveal>
+  <div class="law-panel" id="p7"><article class="law">
     <h3><span class="par">§7</span> DALSZE CZYNIENIE DOBRA</h3>
     <p>Nie popieramy masowego pozyskiwania rzeczy w celu ich dalszej odsprzedaży.</p>
     <p>Zastrzegamy sobie prawo do przekazywania rzeczy, które przez dłuższy czas nie znajdują nowego właściciela, innym organizacjom prowadzącym działalność społeczną.</p>
     <p>Przedmioty w Podzielni WOW służą bezgotówkowej wymianie.</p>
-  </article>
+  </article></div>
 </div></section>
 
 <footer class="footer"><div class="container footer-bottom" style="border:0">
@@ -126,4 +133,4 @@
 </div></footer>
 <script src="script.js"></script>
 </body>
-  </html>
+</html>
