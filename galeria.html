@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeria – Podzielnia WOW</title>
+<meta name="description" content="Zajrzyj do Podzielni WOW – galeria zdjęć z wnętrza, akcji i codziennego życia miejsca na Czumy 6 w Warszawie.">
+<link rel="icon" type="image/png" href="Podzielnialogo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar"><div class="container topbar-inner">
+  <span>📍 ul. Czumy 6a, Warszawa (Bemowo)</span><span>🕐 pon–pt: 17:00–20:00 • sob: 12:00–15:00</span>
+</div></div>
+<header class="header" id="header"><div class="container header-inner">
+  <a class="brand" href="index.html"><img src="Podzielnialogo.png" alt="Podzielnia WOW"></a>
+  <nav class="nav" id="nav">
+    <a href="o-nas.html">O nas</a><a href="regulamin.html">Regulamin</a><a href="media.html">Media</a>
+    <a href="galeria.html" class="active">Galeria</a><a href="opinie.html">Opinie</a>
+    <a href="kontakt.html">Kontakt</a><a href="wolontariusze.html">Dla wolontariuszy</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</div></header>
+
+<section class="page-hero"><div class="page-hero-bg"><img src="pz1.png" alt=""></div>
+  <div class="container">
+    <span class="kicker">Fotorelacja</span>
+    <h1>Galeria Podzielni</h1>
+    <p>Zajrzyj do środka! Wieszaki pełne ubrań, uśmiechnięci goście, nasi wolontariusze i codzienne życie miejsca, które ratuje ubrania przed śmieciową powodzią.</p>
+  </div>
+</section>
+
+<section class="section"><div class="container">
+  <div class="gallery-grid">
+    <figure class="polaroid" data-reveal="scale"><img src="pz1.png" alt="Podzielnia WOW"><figcaption class="caption">Wnętrze Podzielni</figcaption></figure>
+    <figure class="polaroid" data-reveal="scale" style="--d:.08s"><img src="pz2.png" alt="Podzielnia WOW"><figcaption class="caption">Wieszaki pełne ubrań</figcaption></figure>
+    <figure class="polaroid" data-reveal="scale" style="--d:.16s"><img src="pz3.png" alt="Podzielnia WOW"><figcaption class="caption">Drewniane wieszaki</figcaption></figure>
+    <figure class="polaroid" data-reveal="scale" style="--d:.24s"><img src="pz4.png" alt="Podzielnia WOW"><figcaption class="caption">Wolontariusze w akcji</figcaption></figure>
+    <figure class="polaroid" data-reveal="scale" style="--d:.32s"><img src="pz5.png" alt="Podzielnia WOW"><figcaption class="caption">Pakowanie darów</figcaption></figure>
+    <figure class="polaroid" data-reveal="scale" style="--d:.4s"><img src="pz6.png" alt="Podzielnia WOW"><figcaption class="caption">Codzienne życie</figcaption></figure>
+    <figure class="polaroid" data-reveal="scale" style="--d:.48s"><img src="pz7.png" alt="Podzielnia WOW"><figcaption class="caption">Goście Podzielni</figcaption></figure>
+    <figure class="polaroid" data-reveal="scale" style="--d:.56s"><img src="pz8.png" alt="Podzielnia WOW"><figcaption class="caption">Akcja wymiany</figcaption></figure>
+    <figure class="polaroid" data-reveal="scale" style="--d:.64s"><img src="pz9.png" alt="Podzielnia WOW"><figcaption class="caption">Nasza ekipa</figcaption></figure>
+  </div>
+  <div style="text-align:center;margin-top:60px" data-reveal>
+    <p class="lead">Chcesz dołączyć do akcji na żywo?</p>
+    <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:18px">
+      <a class="btn btn-green" href="wolontariusze.html">Zostań wolontariuszem</a>
+      <a class="btn btn-outline" href="kontakt.html">Przyjdź nas odwiedzić</a>
+    </div>
+  </div>
+</div></section>
+
+<footer class="footer"><div class="container footer-bottom" style="border:0">
+  <span>© <span id="year"></span> Stowarzyszenie Podzielnia WOW – Weź, Oddaj, Wymień</span>
+  <span>Zrobione z 💚 dla planety</span>
+</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
