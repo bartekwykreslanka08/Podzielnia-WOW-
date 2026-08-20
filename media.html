@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nasze media społecznościowe – Podzielnia WOW</title>
+<meta name="description" content="Znajdź nas na Facebooku, Instagramie i TikToku. Śledź Podzielnię WOW w social mediach!">
+<link rel="icon" type="image/png" href="Podzielnialogo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar"><div class="container topbar-inner">
+  <span>📍 ul. Czumy 6a, Warszawa (Bemowo)</span><span>🕐 pon–pt: 17:00–20:00 • sob: 12:00–15:00</span>
+</div></div>
+<header class="header" id="header"><div class="container header-inner">
+  <a class="brand" href="index.html"><img src="Podzielnialogo.png" alt="Podzielnia WOW"></a>
+  <nav class="nav" id="nav">
+    <a href="o-nas.html">O nas</a><a href="regulamin.html">Regulamin</a><a href="media.html" class="active">Media</a>
+    <a href="index.html#galeria">Galeria</a><a href="kontakt.html">Kontakt</a><a href="wolontariusze.html">Dla wolontariuszy</a>
+  </nav>
+  <div class="nav-tools">
+    <button class="theme-toggle" id="themeToggle" aria-label="Przełącz tryb ciemny"><span id="themeIcon">🌙</span></button>
+    <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</div></header>
+
+<section class="page-hero"><div class="page-hero-bg"><img src="pz1.png" alt=""></div>
+  <div class="container">
+    <span class="kicker">Bądź na bieżąco</span>
+    <h1>Nasze media społecznościowe</h1>
+    <p>Znajdziesz nas tam, gdzie się dzieje. Śledź nas, komentuj, dziel się – i bądź na bieżąco z akcjami, nowymi dostawami i wyjątkowymi okazjami!</p>
+  </div>
+</section>
+
+<section class="section"><div class="container">
+  <div class="media-grid">
+    <article class="media-card" data-reveal>
+      <div class="media-icon fb">f</div>
+      <h3>Facebook</h3>
+      <p>Aktualności, relacje z akcji i cała społeczność Podzielni w jednym miejscu.</p>
+      <!-- PODMIEŃ href na prawdziwy link do Facebooka -->
+      <a class="btn btn-green" href="#" target="_blank" rel="noopener">Odwiedź profil</a>
+    </article>
+    <article class="media-card" data-reveal style="--d:.12s">
+      <div class="media-icon ig">📷</div>
+      <h3>Instagram</h3>
+      <p>Fotorelacje z dyżurów, inspiracje i codziennie trochę zieleni na feedzie.</p>
+      <!-- PODMIEŃ href na prawdziwy link do Instagrama -->
+      <a class="btn btn-green" href="#" target="_blank" rel="noopener">Odwiedź profil</a>
+    </article>
+    <article class="media-card" data-reveal style="--d:.24s">
+      <div class="media-icon tt">♪</div>
+      <h3>TikTok</h3>
+      <p>Shortsy z akcji, szybkie porady i najciekawsze momenty z Podzielni.</p>
+      <!-- PODMIEŃ href na prawdziwy link do TikToka -->
+      <a class="btn btn-green" href="#" target="_blank" rel="noopener">Odwiedź profil</a>
+    </article>
+  </div>
+
+  <div class="cta" data-reveal style="margin-top:60px">
+    <img src="pz4.png" alt="Wolontariusze">
+    <div class="cta-inner">
+      <h2>Chcesz działać z nami?</h2>
+      <p style="margin-bottom:28px;opacity:.9">Dołącz do ekipy wolontariuszy i twórz Podzielnię razem z nami.</p>
+      <a class="btn btn-light" href="wolontariusze.html">Zostań wolontariuszem</a>
+    </div>
+  </div>
+</div></section>
+
+<footer class="footer"><div class="container footer-bottom" style="border:0">
+  <span>© <span id="year"></span> Stowarzyszenie Podzielnia WOW – Weź, Oddaj, Wymień</span>
+  <span>Zrobione z 💚 dla planety</span>
+</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
